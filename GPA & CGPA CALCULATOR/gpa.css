@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background: lightblue;
+    font-size: 12px;
+  }
+
+  h1{
+    text-align: center;
+    margin: 30px;
+  }
+    
+  .container {
+   
+    margin: auto;
+    padding: 10px;
+    
+  }
+    
+  .form {
+    
+    padding: 50px;
+  }
+  input {
+    margin: 10px 10px 10px;
+    width: 400px;
+  }
+  .showdata {
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
