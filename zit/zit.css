@@ -1,0 +1,138 @@
+
+
+body{
+margin: 0%;
+font-family: sans-serif;
+}
+
+#heading,#department,#course{
+    background-color: #CDF0EA;
+    width: 100%;
+}
+
+#heading,#department{
+    padding: 20px;
+    height: 500px;
+}
+
+#dean-hod{
+    padding: 20px;
+    width: 100%;
+    height: 600px;
+}
+#faculty{
+ 
+    height: 550px;
+    
+}
+#student{
+  
+    height: 300px;
+}
+
+#course{
+        
+    height: 600px;
+ 
+ }
+
+ table,tr,th,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+
+
+.navbar{
+    margin: 0%;
+    float: right;
+    overflow: hidden;
+}
+
+.nav-container{
+    padding: 10px 30px 30px;
+    margin-bottom: 100px;
+}
+.item{
+    
+    color: brown;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+h1{
+    letter-spacing: 2px;
+}
+.home{
+    text-align: center;
+    font-size: 30px;
+}
+
+.home p{
+    color: red;
+    text-decoration: underline;
+}
+.vit-image{
+    height: 200px;
+    width: 300px;
+}
+
+.dean-details,.hod-details{
+   
+    width: 50%;
+    text-align: left;
+    margin: 40px 10px 40px;
+}
+
+
+
+.dean-img,.hod-img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    
+    
+}
+
+.dean-img{
+    float: left;
+  margin: 30px;
+}
+.hod-img,.hod-details{
+    
+    float: right; 
+    
+}
+
+h2{
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+  
+}
+
+.dept-info,.fac-info,.student-info{
+margin: 2px 20px;
+    padding: 0 30px;
+        line-height: 1.6;
+}
+
+
+.fac-list{
+     text-align: center; 
+     line-height: 2;
+    }
+ ul {
+      display: inline-block;
+     text-align: left; }
+
+
+.course-table{
+    margin-left: auto;
+  margin-right: auto;
+}     
+
