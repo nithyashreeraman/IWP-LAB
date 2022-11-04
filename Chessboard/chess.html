@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Chess board</title>
+    <style>
+
+        body {
+            text-align: center;
+        }
+ 
+        .box {
+            height: 50px;
+            width: 50px;
+           border: 1.5px solid black;
+            
+        }
+ 
+        .black {
+            background-color: black;
+        }
+ 
+        .white {
+            background-color: white;
+        }
+
+    </style>
+</head>
+ 
+<body>
+    
+    <br><br>
+ <h1> Nithyashree Chessboard </h1>
+    <script>
+ 
+
+        var center = document.createElement('center');
+ 
+      
+        var Chess = document.createElement('table');
+        for (var i =0; i<8; i++) {
+ 
+           
+            var tr = document.createElement('tr');
+            for (var j =0; j<8; j++) {
+ 
+                
+                var td = document.createElement('td');
+                if ((i+j)%2 == 0) {
+
+                    td.setAttribute('class', 'box white');
+                    tr.appendChild(td);
+                }
+ 
+              
+                else {
+
+                    td.setAttribute('class', 'box black');
+                    tr.appendChild(td);
+                }
+            }
+ 
+            Chess.appendChild(tr);
+        }
+        center.appendChild(Chess);
+ 
+    
+        Chess.setAttribute('cellspacing', '0');
+        Chess.setAttribute('width', '450px');
+
+        document.body.appendChild(center);
+
+    </script>
+</body>
+ 
+</html>
