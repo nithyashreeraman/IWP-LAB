@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: lightyellow;
+}
+
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: brown;
+}
+
+label{
+font-weight: bold;
+}
+
+.register,.full-container{
+    margin-top: 6px;
+    margin-right: 50x;
+        padding: 10px;
+    width: 100%;
+}
+
+.register{
+    padding: 20px;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
