@@ -1,0 +1,25 @@
+body{
+    background-color: #CAF7E3;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    padding-top: 20px;
+}
+
+h2{
+    color: brown;
+}
+
+hr{
+    border-top: 2px dashed grey;
+}
+
+.pic{
+    border-radius: 100%;
+    width: 190px;
+    height: 180px;
+}
